@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Typeecon';
+    src: local('Typeecon'),
+	     url(typeecon.otf) format('OpenType');
+}
+
+.social-icons{
+	font-family: 'Typeecon';
+	display: inline-block;
+	font-size: 25px;
+	color: #fe1f00;
+}
+
+.social-content{
+	text-align: center;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -178,6 +195,30 @@ body{
 	height: 30px;
 }
 
+.information-content{
+	margin-top: 60px;
+	position: relative;
+	clear: both;
+}
+
+.inner-information-content{
+	height: 50px;	
+	width: 49%;
+	display: inline-block;
+	
+}
+
+.text-content{
+	color:  #fe1f00;
+	text-align: center;
+	font-size: 1em;
+	line-height: 50px;
+}
+
+.inner-information-content:first-child{
+	border-right: 1px solid #fe1f00;
+}
+
 /* News */
 .big-article{
 	height: auto;
@@ -208,6 +249,41 @@ body{
     font-style: italic;
 }
 
+.carousel-caption{
+	width: 100%;
+	background: rgba(5,5,5,0.38);
+	background: -moz-linear-gradient(top, rgba(5,5,5,0.38) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(5,5,5,0.38)), color-stop(100%, rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top, rgba(5,5,5,0.38) 0%, rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top, rgba(5,5,5,0.38) 0%, rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top, rgba(5,5,5,0.38) 0%, rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(5,5,5,0.38) 0%, rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#000000', GradientType=0 );
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding-bottom: 0;
+}
+
+.inner-carousel-title{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 6%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.inner-carousel-content{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: lighter;
+	font-size: .7em;
+	text-align: left;
+	margin-left: 6%;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+}
+
 .img-responsive{
 	height: 10%;
 	vertical-align: middle;
@@ -232,6 +308,7 @@ body{
 
 .no-padding{
 	padding: 0;
+	overflow: hidden;
 }
 
 .middle-icon{
