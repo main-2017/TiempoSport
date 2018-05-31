@@ -4,6 +4,12 @@
 	     url(typeecon.otf) format('OpenType');
 }
 
+@font-face {
+    font-family: 'TiempoSport2';
+    src: local('TiempoSport2'),
+	     url(tiemposport2.ttf) format('TrueType');
+}
+
 .social-icons{
 	font-family: 'Typeecon';
 	display: inline-block;
@@ -11,8 +17,34 @@
 	color: #fe1f00;
 }
 
+.social-icons.white{
+	color: #FFF;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.social-field{
+	width: 130px;
+	display: block;
+	margin: 0 auto;
+}
+
+.social-field li{
+	list-style: none;
+	display: inline-block;
+}
+
 .social-content{
 	text-align: center;
+}
+
+.atribution{
+	color: #FFF;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
 }
 
 body{
@@ -239,6 +271,23 @@ body{
 	line-height: 300px;
 }
 
+.label-sm{
+	width: 100%;
+	margin: 10px auto 5px 10px;
+	text-align: left;
+	color: #fe1f00;
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.content-sm{
+	font-size: .7rem;
+	color: #000;
+	text-align: left;
+	margin: 5px auto 0px 10px;
+}
+
 .section-title{
 	width: 90%;
 	clear: both;
@@ -291,10 +340,11 @@ body{
 }
 
 .small-article{
-	height: auto;
-	min-height: 300px;
-	background-color: #fe1f00;
+	height: 317px;
+	background-color: transparent;
 	border: 1px solid #FFF;
+	overflow: hidden;
+	padding: 0;
 }
 
 .sponsor-banner{
@@ -311,6 +361,32 @@ body{
 	overflow: hidden;
 }
 
+.small-article.no-border-top{
+	border-top: none;
+}
+
+.small-article.no-border-top.smaller{
+	height: 141px;
+	min-height: 141px;
+}
+
+.img-adapt{
+	width: 100%;
+	height: auto;
+}
+
+.small-article.no-border-top.smaller p.joke-label-sm{
+	line-height: 141px;
+}
+
+.tiempo-font{
+	font-family: 'TiempoSport2';
+	font-size: 2rem;
+	color: #fe1f00;
+	font-style: normal;
+	font-weight:500;
+}
+
 .middle-icon{
     height: 7%;
     vertical-align: middle;
@@ -325,6 +401,6 @@ footer{
 	background-color: #fe1f00;
 	width: 100%;
 	height: auto;
-	min-height: 150px;
+	min-height: 50px;
 	margin-top: 50px;
 }
