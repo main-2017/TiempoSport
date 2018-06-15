@@ -397,6 +397,29 @@ body{
 	margin: 1% 58px;
 }
 
+.text-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.label-news{
+	width: 100%;
+	margin: 10px auto 5px 0;
+	text-align: left;
+	color: #fe1f00;
+	font-size: 1rem;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.downer{
+	font-size: .9rem;
+	color: #000;
+	text-align: left;
+	margin: 5px auto 0px 0;
+}
+
 footer{
 	background-color: #fe1f00;
 	width: 100%;
