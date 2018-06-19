@@ -25,9 +25,10 @@
 }
 
 .social-field{
-	width: 130px;
+	width: 90px;
 	display: block;
 	margin: 0 auto;
+	padding: 0;
 }
 
 .social-field li{
